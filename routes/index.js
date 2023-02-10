@@ -5,7 +5,7 @@ var jsonResponse = require('../models/jsonResponse');
 
 /* Default GET JSON for site */
 router.get('/', function(req, res, next) {
-  var response = new jsonResponse("Default ratings api endpoint", 200, []);
+  var response = new jsonResponse("Default ratings api endpoint WAS CHANGED", 200, []);
   res.json(response).status(response.status);
 });
 
